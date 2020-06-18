@@ -197,7 +197,7 @@ padding: 80px 0;
 .section--devices {
   margin-bottom: 40px;
   padding-bottom: 0;
-  background: url("../images/devices-bg.jpg") center no-repeat;
+  background: url("../images/devices/devices-bg.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -632,7 +632,7 @@ opacity: 0.1;
 
  .works__title {
    margin-bottom: 5px;
-   font-size:14px;
+   font-size: 14px;
    text-transform: uppercase;
  }
 
@@ -641,3 +641,76 @@ opacity: 0.1;
    font-style: italic;
    font-weight: 300;
  }
+
+ /*Clients*/
+
+ .section--clients {
+  margin-bottom: 40px;
+  padding-bottom: 0;
+  background: url("C:/Users/Lenovo/Desktop/Lending/assets/images/clients-bg.jpg") center no-repeat;
+  background-size: cover;
+  }
+
+  .section__suptitle {
+   font-size: 20px;
+  color: black;
+  font-family: 'Kaushan Script', cursive;
+   }
+
+  .clients {
+  padding: 10px 10px;
+  position: relative;
+  display: flex;
+   }
+
+  .clients__item {
+  padding: 0 150px;
+  position: relative;
+  display: block;
+  flex: 1 1 0;
+  }
+
+  .clients__photo {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  border: 2px grey;
+  }
+
+ .clients__info {
+  margin: 20px;
+  text-align: center;
+}
+
+.clients__name {
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.clients__prof {
+font-style: italic;
+font-size: 14px;
+color: #333;
+}
+
+.clients__prof::after {
+  content: "";
+  display: flex;
+  vertical-align: middle;
+  width: 50px;
+  height: 3px;
+  margin-top: 15px;
+  background-color: red;
+}
+
+.clients__text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #999999;
+}
